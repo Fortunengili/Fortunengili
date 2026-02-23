@@ -46,6 +46,44 @@ Technologies Used:
 * ReactJS
 * Bootstrap CSS- styling
 * Vercel- deployment
+* 
+# MiniTrack
+# Overview
+MiniTrack is a full-stack web application designed to simulate a role-based school transportation management system. The platform streamlines how parents, drivers, and administrators coordinate student transport through structured booking workflows, route management, and operational dashboards.
+The system models real-world logistics and scheduling scenarios, emphasizing data clarity, predictable workflows, and role-specific functionality. Each user type interacts with a dedicated interface aligned with their responsibilities.
+MiniTrack demonstrates practical full-stack development principles including UI composition, backend-driven logic, database interactions, and workflow state management.
+# Features
+* Role-based dashboards (Parent, Driver, Admin)
+* Ride booking and scheduling workflows
+* Route and assignment management
+* Trip and booking visibility
+* Structured data presentation
+* CSV export functionality for bookings
+* Backend-managed workflow states
+* Database-backed persistence
+# Tech Stack
+* **Frontend**:
+* Next.js
+* React
+* Tailwind 
+* **Backend**:
+* Python
+* Flask
+* REST API Architecture
+* **Database**:
+* PostgreSQL
+* **Other Tools**:
+* Git & GitHub
+* Postman (API testing)
+* Vercel
+
+# Architecture
+MiniTrack follows a separation-of-concerns full-stack architecture:
+Frontend Layer → Handles UI rendering, routing, and user interactions
+Backend Layer → Manages business logic, validation, workflow states, APIs
+Database Layer → Stores bookings, routes, users, and system records
+Communication between layers occurs via RESTful API endpoints. Workflow state transitions (e.g., booking status, payment state) are controlled server-side to maintain data integrity and predictable behavior.
+The system is structured around role-based access patterns, ensuring that parents, drivers, and administrators have scoped functionality.
 
  # What I'm currently learning:
  1. Advanced React patterns (hooks, context, performance)
